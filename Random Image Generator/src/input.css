@@ -1,0 +1,14 @@
+@import "tailwindcss";
+
+img{
+    display: inline-block;
+    margin: 10px;
+    height: 300px;
+    width: 300px;
+    border-radius: 10px;
+    background-color: #fff;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.6);
+}
+#btn:hover{
+    opacity: 0.9;
+}
