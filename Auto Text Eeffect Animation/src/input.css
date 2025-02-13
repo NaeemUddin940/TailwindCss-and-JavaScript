@@ -1,0 +1,9 @@
+@import "tailwindcss";
+@import url('https://fonts.googleapis.com/css2?family=Fira+Code:wght@300..700&family=Permanent+Marker&display=swap');
+
+body{
+    font-family: "Permanent Marker", cursive;
+}
+h1{
+    font-size: 35px;
+}

@@ -1,0 +1,19 @@
+@import "tailwindcss";
+
+#btn::before{
+    content: "";
+    height: 0px;
+    width: 0px;
+    background-color: #0aff91;
+    position: absolute;
+    left: var(--xPos);
+    top: var(--yPos);
+    border-radius: 50%;
+    transform: translate(-50%, -50%);
+}
+
+#btn:hover::before{
+    height: 300px;
+    width: 300px;
+    transition: width 0.8s, height 0.8s;
+}
