@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Auto text Counter</title>
+    <link href="./output.css" rel="stylesheet">
+</head>
+<body class="h-screen bg-indigo-500 flex justify-center flex-col items-center">
+    <div class="h-100 w-100 bg-indigo-600 shadow-[0_10px_50px_rgba(0,0,0,0.8)]
+     rounded-2xl p-5 flex flex-col">
+        <h2 class="text-2xl mb-5 font-bold text-center">Real Time Character Counter</h2>
+        <textarea id="text-area" placeholder="Please write text here...." maxlength="150"></textarea>
+        <div class="flex justify-between pt-3">
+            <p>Total Character: <span class="text-[#00ff1a] font-bold" id="total-character"></span></p>
+            <p>Remaining: <span class="text-[#ff0000] font-bold" id="remaining-character"></span></p>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
